@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <!-- Bring in all stylesheets -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+
+<!-- Created header w/ collapsible nav -->
+<header>
+
+  <!-- Created navbar w/ brand & sticky top -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a id="nav-top" class="navbar-brand">
+      <img id="nav-image" src="./images/m-image.png" class="d-inline-block" alt="blue fiery letter m"> Michelle McConville
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li><a class="nav-link" href="./index.html">About</a></li>
+        <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+        <li><a id="current" class="nav-link" href="./contact.html">Contact</a></li>    
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<!-- Created main "Contact" page w/ form -->
+<main class="container wrapper">
+
+  <div class="row">
+    <section id="contactMe" class="col">
+
+      <h1>Contact Me</h1><hr>
+
+      <!-- commented out <form action> as we have not learned how to execute a form -->
+      <!-- <form action="/action_page.php"></form> --> 
+    
+      <form class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter Name" name="name">
+      </form>
+
+      <form class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" class="form-control" placeholder="Enter eMail" name="email">
+      </form>
+
+      <form class="form-group">
+        <label for="textarea">Message:</label>
+        <textarea id="textarea" class="form-control" placeholder="Enter Message" name="message" rows="3"></textarea>
+      </form>
+
+      <button type="submit" class="btn mb-2">Submit</button>
+
+    </section>
+  </div>
+  
+  <div class="push"></div>
+
+</main>
+
+<!-- Created sticky navbar footer -->
+<footer>
+
+  <nav id="nav-bottom" class="navbar">
+    <!-- <a class="navbar-brand-bottom"> &copy; 2020 | Designed by Me</a> -->
+    <div class="row footer-row">
+      <div class="col footer-col">
+        <p>&copy; 2020 | Designed by Michelle McConville</p>
+      </div>
+    </div>
+    <!-- Added 2nd row to footer -->
+    <div class="row footer-row">
+      <div class="col footer-col">
+        <!-- Added font awesome social media icons -->
+        <a href="https://www.linkedin.com/in/mchelmcconvillekc/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://angel.co/u/michelle-mcconville" target="_blank"><i class="fa fa-angellist"></i></a>
+        <a href="mailto:dev.mconvl@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+  </nav>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+/************************/
+/*        Global        */
+/************************/
+
+html, body {
+  height: 96.5%;
+  margin: 0;
+}
+
+body {
+  background: url("./images/watercolour2.jpg") no-repeat center fixed;
+  background-size: cover;
+  line-height: 1;
+}
+
+main {
+  margin-top: 3.625rem;
+}
+
+.col {
+  background-color: rgb(212, 166, 174);
+  margin: 1rem auto 2rem;
+  padding: 0 1rem 0 1rem;
+  -webkit-border-radius: .3rem;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+/************************/
+/*      Navbar Top      */
+/************************/
+
+.navbar {
+  background-color: #9672cc;
+}
+
+.navbar-brand {
+  color: azure;
+  font-size: 1.3rem;
+  margin: 0 auto;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: hotpink;
+  color: hotpink;
+  padding: 0;
+}
+
+#current {
+  background-color: hotpink;
+  color: black;
+  font-weight: 700;
+  -webkit-border-radius: .3rem;
+}
+
+#nav-image {
+  height: 2rem;
+}
+
+#nav-top.navbar-brand {
+  float: left;
+  margin: 0;
+}
+
+/************************/
+/*      Index Page      */
+/************************/
+
+h1 {
+  color: azure;
+  padding-top: 1rem;
+}
+
+hr {
+  border: 1px solid azure;
+}
+
+p {
+  color: azure;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  padding-top: 0;
+  text-align: justify;
+}
+
+#aboutMe-img {
+    margin: .4rem 1.2rem 0 .0;
+}
+
+/************************/
+/*    Portfolio Page    */
+/************************/
+
+p.card-text {
+  color: #212529;
+  font-size: 1rem;
+}
+
+.card {
+  background: transparent;
+ -webkit-border-radius: .3rem;
+}
+
+.card-body {
+  background: linear-gradient(to bottom right, #33ccff 15%, #ff99cc 60%);
+ -webkit-border-radius: 0 0 .3rem .3rem;
+}
+
+.card-deck {
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  border-radius: .3rem .3rem 0 0;
+}
+
+.sub-title {
+  color: #2b213b;
+}
+
+.sub-title:hover {font-size: 125%;}
+
+/************************/
+/*     Contact Page     */
+/************************/
+
+label {
+  color: black;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: black;
+  color: azure;
+  font-weight: bolder;
+}
+
+/************************/
+/*      Footer Nav      */
+/************************/
+
+footer, .push {
+  height: 50px;
+}
+
+.fa {
+  color: hotpink;
+  margin: 0 .5rem;
+}
+
+.footer-col {
+  background: transparent;
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+}
+
+.footer-col > p {
+  color: azure;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-row {
+  text-align: center;
+  width: 100%;
+}
+
+#nav-bottom {
+  background-color: #2b213b;
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+/************************/
+/*        @Media        */
+/************************/
+
+@media screen and (max-width: 768px) {
+  label {
+    color: black;
+    font-weight: 700;
+  }
+
+  .btn {
+    background-color: #007bff;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .col {
+    background-color: rgb(134, 196, 158);
+    width: 100%;
+  }
+
+  .footer-col {
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    clear: both;
+  }
+
+  #aboutMe-img {
+    float: none;
+    margin: .4rem 1.2rem 1rem .0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  label {
+    color: hotpink;
+    font-weight: 700;
+  }
+
+  p {
+    clear: both;
+  }
+
+  .btn {
+    background-color: hotpink;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .col {
+    background-color: rgb(161, 160, 160);
+  }
+
+  .footer-col {
+    background: transparent;
+  }
+  
+  #aboutMe-img {
+    float: none;
+    margin: .4rem 1.2rem 1rem .0;
+    width: 100%;
+  }
+}
+
+/* Future attempt to remove image from navbar on super small screens */
+/* @media screen and (max-width: 315px) {
+    #nav-image {
+    display: none;
+  }
+} */
+
