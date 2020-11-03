@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background: url("./images/watercolour2.jpg") no-repeat center fixed;
+  background: url("../images/watercolour2.jpg") no-repeat center fixed;
   background-size: cover;
   line-height: 1;
 }
@@ -19,9 +19,9 @@ main {
 
 .col {
   background-color: rgb(212, 166, 174);
+  border-radius: .3rem;
   margin: 1rem auto 2rem;
-  padding: 0 1rem 0 1rem;
-  -webkit-border-radius: .3rem;
+  padding: 0 1rem 0 1rem;  
 }
 
 .wrapper {
@@ -51,9 +51,9 @@ main {
 
 #current {
   background-color: hotpink;
+  border-radius: .3rem;
   color: black;
   font-weight: 700;
-  -webkit-border-radius: .3rem;
 }
 
 #nav-image {
@@ -101,12 +101,13 @@ p.card-text {
 
 .card {
   background: transparent;
- -webkit-border-radius: .3rem;
+  border-radius: .3rem;
+  width: 180rem;
 }
 
 .card-body {
   background: linear-gradient(to bottom right, #33ccff 15%, #ff99cc 60%);
- -webkit-border-radius: 0 0 .3rem .3rem;
+  border-radius: 0 0 .3rem .3rem;
 }
 
 .card-deck {
