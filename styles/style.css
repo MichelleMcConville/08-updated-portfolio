@@ -17,11 +17,18 @@ main {
   margin-top: 3.625rem;
 }
 
-.col, .col-sm-4 {
+.col {
   background-color: rgb(212, 166, 174);
   border-radius: .3rem;
   margin: 1rem auto 1rem;
   padding: 0 .5rem 0 .5rem;  
+}
+
+.col-sm-4 {
+  background-color: transparent;
+  border-radius: .3rem;
+  margin: 0;
+  padding: 0 .5rem 0 .5rem; 
 }
 
 .wrapper {
@@ -76,7 +83,7 @@ h1 {
 
 hr {
   border: 1px solid azure;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 
 p {
