@@ -31,7 +31,7 @@ function buildPortfolio() {
     var linkedIn = "https://www.linkedin.com/in/mchelmcconvillekc/";
     var github = "https://github.com/MichelleMcConville";
     var angelList = "https://angel.co/u/michelle-mcconville";
-    var resume = "../images/";
+    var resume = "../images/MichelleMcConville.pdf";
     var copyYr = "&copy; 2020";
     var createdBy = "Designed by Michelle McConville"
     var env = "fa fa-envelope";
