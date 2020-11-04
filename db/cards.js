@@ -24,7 +24,7 @@ var sites = [
       title: "Day 📆 Planner",
       githubLink: "https://github.com/MichelleMcConville/05-work-day-scheduler",
       subText: "Click to get code",
-      desc: "Keep track of your workday schedule with this handy work day planner!"
+      desc: "Keep track of your workday schedule with this handy day planner!"
     },
     {
       url: "https://michellemcconville.github.io/04-code-quiz/",
