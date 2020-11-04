@@ -17,11 +17,11 @@ main {
   margin-top: 3.625rem;
 }
 
-.col {
+.col, .col-sm-4 {
   background-color: rgb(212, 166, 174);
   border-radius: .3rem;
-  margin: 1rem auto 2rem;
-  padding: 0 1rem 0 1rem;  
+  margin: 1rem auto 1rem;
+  padding: 0 .5rem 0 .5rem;  
 }
 
 .wrapper {
@@ -76,6 +76,7 @@ h1 {
 
 hr {
   border: 1px solid azure;
+  margin-bottom: .5rem;
 }
 
 p {
@@ -116,6 +117,15 @@ p.card-text {
 
 .card-img-top {
   border-radius: .3rem .3rem 0 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
 }
 
 .sub-title {
@@ -252,4 +262,3 @@ footer, .push {
     display: none;
   }
 } */
-
