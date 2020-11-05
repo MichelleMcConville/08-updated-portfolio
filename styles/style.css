@@ -26,9 +26,9 @@ main {
 
 .col-sm-4 {
   background-color: transparent;
-  border-radius: .3rem;
+  /* border-radius: .3rem;
   margin: 0;
-  padding: 0 .5rem 0 .5rem; 
+  padding: 0 .5rem 0 .5rem;  */
 }
 
 .wrapper {
@@ -196,10 +196,27 @@ footer, .push {
 }
 
 /************************/
+/*       Pop-Outs       */
+/************************/
+
+.card-img-top:hover {
+  cursor: pointer;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #2b213b;
+  transform: translateY(0.1rem);
+  transition: transform 150ms;
+}
+
+card-img-top[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/************************/
 /*        @Media        */
 /************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   label {
     color: black;
     font-weight: 700;
@@ -221,9 +238,17 @@ footer, .push {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
   p {
     clear: both;
+  }
+
+  .col {
+    background-color: rgb(161, 160, 160);
+  }
+
+  .footer-col {
+    background: transparent;
   }
 
   #aboutMe-img {
@@ -246,14 +271,6 @@ footer, .push {
     background-color: hotpink;
     color: black;
     font-weight: bolder;
-  }
-
-  .col {
-    background-color: rgb(161, 160, 160);
-  }
-
-  .footer-col {
-    background: transparent;
   }
   
   #aboutMe-img {
