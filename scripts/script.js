@@ -9,7 +9,7 @@ function buildPortfolio() {
       var desc = sites[i].desc;
   
     $("#cards").append(
-      `<div class="col-sm-4 pb-3">
+      `<div class="col-md-4 col-sm-6 pb-3">
         <div class="card">
           <a href="${url}" target="_blank">
             <img src="${imageLink}" class="card-img-top" alt="${alt}"></a>
