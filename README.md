@@ -11,14 +11,6 @@ For this project the customer request we update our previous ***`Portfolio`*** p
 
 ---
 
-## Screenshots
-
-| ***About Me***                           | ***Portfolio***                                |
-| ---------------------------------------- | ---------------------------------------------- |
-| ![About](./images/updatedAboutMe400.jpg) | ![Portfolio](./images/updatedPortfolio400.png) |
-
----
-
 ## User Story
 
 ```.
@@ -28,6 +20,30 @@ For this project the customer request we update our previous ***`Portfolio`*** p
   2. Completed projects page
   3. Links in the footer for contacting me
 ```
+
+---
+
+## Sources Referenced
+
+[My Github](https://github.com/MichelleMcConville) `|`
+[w3schools](https://www.w3schools.com) `|`
+[google](https://www.google.com/)
+
+---
+
+## Accessibility Standards Validation
+
+| Successfully ran code thru [**W3C**](https://validator.w3.org/) validator |
+|---------------------------------------------------------------------------|
+| ![Validation Results](./images/08-w3c-Success.png)                        |
+
+---
+
+## Screenshots
+
+| ***About Me***                           | ***Portfolio***                                |
+| ---------------------------------------- | ---------------------------------------------- |
+| ![About](./images/updatedAboutMe400.jpg) | ![Portfolio](./images/updatedPortfolio400.png) |
 
 ---
 
