@@ -1,4 +1,4 @@
-# [**08-updated-portfolio**](https://michellemcconville.github.io/08-updated-portfolio/) :link:
+# [**08-updated-portfolio**](https://michellemcconville.github.io/08-updated-portfolio/) 🔗
 
 ## Description
 

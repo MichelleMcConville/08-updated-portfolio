@@ -9,6 +9,15 @@ var sites = [
       desc: "Looking for a place to camp in the National Parks! Use this app."
     },
     {
+      url: "https://github.com/MichelleMcConville/10-employee-summary/",
+      imageLink: "./images/employeeSummary320.jpg",
+      alt: "html-employee-summary",
+      title: "Employee 💼 Roster",
+      githubLink: "https://github.com/MichelleMcConville/10-employee-summary",
+      subText: "Click to get code",
+      desc: "A template to use for organizing all your bookmarked sites into a fun 1-page format!"
+    },
+    {
       url: "https://michellemcconville.github.io/06-weather-dashboard/",
       imageLink: "./images/weather320.jpg",
       alt: "weather-app",
@@ -51,7 +60,7 @@ var sites = [
       title: "Favorites 🌸 Page",
       githubLink: "https://github.com/MichelleMcConville/bookmarks",
       subText: "Click to get code",
-      desc: "A template to use for organizing all your bookmarked sites into a fun 1-page format!"
+      desc: "A simple Node CLI for generating a software engineering team roster based on user input!"
     }
   ];
   
