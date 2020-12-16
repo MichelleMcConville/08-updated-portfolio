@@ -25,8 +25,8 @@ For this project the customer request we update our previous ***`Portfolio`*** p
 
 ## Sources Referenced
 
-[My Github](https://github.com/MichelleMcConville) `|`
-[w3schools](https://www.w3schools.com) `|`
+[My Github](https://github.com/MichelleMcConville) **`|`**
+[w3schools](https://www.w3schools.com) **`|`**
 [google](https://www.google.com/)
 
 ---
@@ -42,7 +42,7 @@ For this project the customer request we update our previous ***`Portfolio`*** p
 ## Screenshots
 
 | ***About Me***                           | ***Portfolio***                                |
-| ---------------------------------------- | ---------------------------------------------- |
+| :--------------------------------------: | :--------------------------------------------: |
 | ![About](./images/updatedAboutMe400.jpg) | ![Portfolio](./images/updatedPortfolio400.png) |
 
 ---
