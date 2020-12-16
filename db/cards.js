@@ -9,13 +9,49 @@ var sites = [
       desc: "Looking for a place to camp in the National Parks! Use this app."
     },
     {
+      url: "https://mchel-burger-app.herokuapp.com/",
+      imageLink: "./images/burgerApp320.jpg",
+      alt: "burger-logger",
+      title: "Burger 🍔 Logger",
+      githubLink: "https://github.com/MichelleMcConville/13-burger",
+      subText: "Click to get code",
+      desc: "Keep track of any & all burgers you have tried!"
+    },
+    {
+      url: "https://github.com/MichelleMcConville/12-employee-tracker",
+      imageLink: "./images/employeeTracker320.jpg",
+      alt: "employee-list",
+      title: "Employee 🧑‍🤝‍🧑 Tracker",
+      githubLink: "https://github.com/MichelleMcConville/12-employee-tracker",
+      subText: "Click to get code",
+      desc: "Use this CLI app to maintain a list of employees for your company!"
+    },
+    {
+      url: "https://mchel-note-taker.herokuapp.com/",
+      imageLink: "./images/noteTaker320.jpg",
+      alt: "note-taker-app",
+      title: "Note 📝 Taker",
+      githubLink: "https://github.com/MichelleMcConville/11-note-taker",
+      subText: "Click to get code",
+      desc: "Save paper by using this cute little notes app!"
+    },
+    {
       url: "https://github.com/MichelleMcConville/10-employee-summary/",
       imageLink: "./images/employeeSummary320.jpg",
-      alt: "html-employee-summary",
+      alt: "team-list",
       title: "Employee 💼 Roster",
       githubLink: "https://github.com/MichelleMcConville/10-employee-summary",
       subText: "Click to get code",
-      desc: "A template to use for organizing all your bookmarked sites into a fun 1-page format!"
+      desc: "A CLI app for generating a software engineering team roster!"
+    },
+    {
+      url: "https://github.com/MichelleMcConville/09-readme-generator",
+      imageLink: "./images/comingSoon320.jpg",
+      alt: "readme-generator",
+      title: "README.md ⚙️ Generator",
+      githubLink: "https://github.com/MichelleMcConville/09-readme-generator",
+      subText: "Click to get code",
+      desc: "Create your README.md automatically!"
     },
     {
       url: "https://michellemcconville.github.io/06-weather-dashboard/",
@@ -60,7 +96,7 @@ var sites = [
       title: "Favorites 🌸 Page",
       githubLink: "https://github.com/MichelleMcConville/bookmarks",
       subText: "Click to get code",
-      desc: "A simple Node CLI for generating a software engineering team roster based on user input!"
+      desc: "A template to use for organizing all your bookmarked sites into a fun 1-page format!"
     }
   ];
   
