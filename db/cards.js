@@ -1,12 +1,12 @@
 var sites = [
   {
     url: "https://mkkp-project2.herokuapp.com/",
-    imageLink: "./images/camping320.jpg",
+    imageLink: "./images/tpoops320.jpg",
     alt: "tp-finding-app",
-    title: "Toilet 🚽 Paper Location App",
+    title: "Toilet 🚽 Paper Finder",
     githubLink: "https://github.com/MichelleMcConville/P2-tpoops",
     subText: "Click to get code",
-    desc: "Annoyed you cannot find any TP, use this app if you have located or in search of this priceless commodity."
+    desc: "Annoyed you cannot find any TP, use this app if you have located or in search of this priceless commodity!"
   },
   {
     url: "https://michellemcconville.github.io/P1-camping-spot-finder/",
